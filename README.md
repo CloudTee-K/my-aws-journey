@@ -1,6 +1,6 @@
-# ☁️ My AWS Cloud Engineering Journey
+#  My AWS Cloud Engineering Journey
 
-Welcome to **My AWS Cloud Engineering Journey**! 🚀
+Welcome to **My AWS Cloud Engineering Journey**! 
 
 This repository documents my hands-on learning journey through AWS Cloud Engineering and DevOps using a project-based approach. Rather than learning AWS services in isolation, I'm building real-world projects that reflect how cloud technologies are used in production environments.
 
@@ -8,7 +8,7 @@ Each project in this repository is carefully documented to showcase not only the
 
 ---
 
-## 👋 About Me
+## About Me
 
 Hi, I'm **Toluwalope**, a Computer Science student with a growing passion for **Cloud Computing**, **Cloud Engineering**, and **Cybersecurity**.
 
@@ -18,7 +18,7 @@ This repository serves as both my learning journal and professional portfolio as
 
 ---
 
-## 🎯 Learning Objectives
+##  Learning Objectives
 
 Throughout this journey, I aim to:
 
@@ -35,20 +35,20 @@ Throughout this journey, I aim to:
 
 ---
 
-## 🛣️ Learning Roadmap
+## Learning Roadmap
 
 | Level           | Projects       | Status        |
 | --------------- | -------------- | ------------- |
-| 🟢 Beginner     | Projects 1–5   | ⏳ Not Started |
+| 🟢 Beginner     | Projects 1–5   | ⏳ IN PROGRESS |
 | 🟡 Intermediate | Projects 6–11  | ⏳ Not Started |
 | 🟠 Advanced     | Projects 12–16 | ⏳ Not Started |
 | 🔴 Expert       | Projects 17–20 | ⏳ Not Started |
 
-**Overall Progress:** **0 / 20 Projects Completed**
+**Overall Progress:** **1 / 20 Projects Completed**
 
 ---
 
-## 🛠️ Technologies & Services
+##  Technologies & Services
 
 During this journey, I'll gain hands-on experience with:
 
@@ -90,7 +90,7 @@ During this journey, I'll gain hands-on experience with:
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```text
 my-aws-journey/
@@ -110,7 +110,7 @@ my-aws-journey/
 
 ---
 
-## 📖 Project Documentation Standard
+##  Project Documentation Standard
 
 Every project in this repository will include:
 
@@ -129,11 +129,11 @@ Every project in this repository will include:
 
 ---
 
-## 📈 Progress Tracker
+## Progress Tracker
 
 | Project | Title                                       | Status    |
 | ------- | ------------------------------------------- | --------- |
-| 1       | Static Website Hosting with S3 & CloudFront | ⏳ Pending |
+| 1       | Static Website Hosting with S3 & CloudFront |✅ Completed|
 | 2       | Linux Server Setup on EC2                   | ⏳ Pending |
 | 3       | Serverless Contact Form                     | ⏳ Pending |
 | 4       | RDS Database with Backups                   | ⏳ Pending |
@@ -156,6 +156,65 @@ Every project in this repository will include:
 
 ---
 
+---
+
+# 🌟 Featured Projects
+
+## ✅ Project 01 — Static Website Hosting with Amazon S3 & CloudFront
+
+Successfully deployed a globally accessible static website using Amazon S3 and Amazon CloudFront.
+
+### Highlights
+
+- Hosted a static website on Amazon S3
+- Configured Static Website Hosting
+- Applied a public-read bucket policy
+- Created a CloudFront distribution
+- Enabled HTTPS through CloudFront
+- Documented the complete deployment process
+- Recorded troubleshooting steps and lessons learned
+- Captured deployment screenshots
+- Practiced AWS cost optimization through resource cleanup
+
+📂 Project Folder:
+
+```text
+Projects/
+└── Project-01-Static-Website-S3-CloudFront/
+
+
+---
+
+#  Skills Progress
+
+## AWS Services
+
+- ✅ Amazon S3
+- ✅ Amazon CloudFront
+- ✅ AWS IAM
+- ⏳ Amazon EC2
+- ⏳ AWS Lambda
+- ⏳ Amazon RDS
+- ⏳ Route 53
+- ⏳ Amazon ECS
+- ⏳ Amazon EKS
+- ⏳ CloudWatch
+- ⏳ DynamoDB
+
+---
+
+## DevOps Tools
+
+- ✅ Git
+- ✅ GitHub
+- ✅ AWS CLI
+- ⏳ GitHub Actions
+- ⏳ Docker
+- ⏳ Terraform
+- ⏳ Kubernetes
+- ⏳ Helm
+- ⏳ ArgoCD
+
 ## 🏆 Certification Alignment
 
 This learning journey supports hands-on preparation for:
@@ -168,7 +227,7 @@ This learning journey supports hands-on preparation for:
 
 ---
 
-## 🙏 Acknowledgements
+##  Acknowledgements
 
 This journey is part of my participation in the **Women Innovating in Cloud Africa (WICA)** Mentorship Program, where I was selected as a mentee for the inaugural cohort.
 
@@ -176,10 +235,10 @@ Special thanks to my mentor, **Olamide Kosile**, for providing guidance, learnin
 
 ---
 
-## 📌 Disclaimer
+##  Disclaimer
 
 This repository is intended for educational and portfolio purposes. AWS resources are deployed only for learning and are cleaned up after each project to encourage responsible cloud usage and cost management.
 
 ---
 
-> *"Consistency compounds. Every completed project is one more step toward becoming a skilled Cloud Engineer."* ☁️🚀
+Cloud engineering isn't mastered by watching tutorials—it's mastered by building, breaking, fixing, documenting, and repeating. Every project in this repository represents one more step toward becoming a professional Cloud Engineer.
