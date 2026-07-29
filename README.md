@@ -44,7 +44,7 @@ Throughout this journey, I aim to:
 | 🟠 Advanced     | Projects 12–16 | ⏳ Not Started |
 | 🔴 Expert       | Projects 17–20 | ⏳ Not Started |
 
-**Overall Progress:** **1 / 20 Projects Completed**
+**Overall Progress:** **2/ 20 Projects Completed**
 
 ---
 
@@ -176,12 +176,29 @@ Successfully deployed a globally accessible static website using Amazon S3 and A
 - Captured deployment screenshots
 - Practiced AWS cost optimization through resource cleanup
 
+## ✅ Project 02 — Linux Server Setup on Amazon EC2
+
+Successfully provisioned and configured a secure Ubuntu Linux server on Amazon EC2 using automated provisioning with EC2 User Data. Implemented secure access with IAM Roles, Security Groups, AWS Systems Manager Session Manager, and Amazon CloudWatch monitoring while deploying a Flask web application behind an Nginx reverse proxy.
+
+### Highlights
+
+- Launched and configured an Ubuntu Server 22.04 LTS Amazon EC2 instance.
+- Configured Security Groups to allow SSH, HTTP, and HTTPS traffic.
+- Created and attached an IAM Role with Systems Manager and CloudWatch permissions.
+- Provisioned the server automatically using EC2 User Data.
+- Deployed a Python Flask web application.
+- Configured Nginx as a reverse proxy for the Flask application.
+- Managed the EC2 instance securely using AWS Systems Manager Session Manager.
+- Monitored instance performance using Amazon CloudWatch.
+- Performed end-to-end Linux and Nginx troubleshooting to validate the deployment.
+- Produced comprehensive project documentation, including architecture, commands, troubleshooting, lessons learned, and screenshots.
+
+
 📂 Project Folder:
 
-```text
 Projects/
 └── Project-01-Static-Website-S3-CloudFront/
-
+└── Project-02-Linux-Server-Setup-on-Amazon-EC2/
 
 ---
 
@@ -192,13 +209,13 @@ Projects/
 - ✅ Amazon S3
 - ✅ Amazon CloudFront
 - ✅ AWS IAM
-- ⏳ Amazon EC2
+- ✅ Amazon EC2
 - ⏳ AWS Lambda
 - ⏳ Amazon RDS
 - ⏳ Route 53
 - ⏳ Amazon ECS
 - ⏳ Amazon EKS
-- ⏳ CloudWatch
+- ✅ CloudWatch
 - ⏳ DynamoDB
 
 ---
