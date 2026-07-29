@@ -134,7 +134,7 @@ Every project in this repository will include:
 | Project | Title                                       | Status    |
 | ------- | ------------------------------------------- | --------- |
 | 1       | Static Website Hosting with S3 & CloudFront |✅ Completed|
-| 2       | Linux Server Setup on EC2                   | ⏳ Pending |
+| 2       | Linux Server Setup on EC2                   |✅ Completed |
 | 3       | Serverless Contact Form                     | ⏳ Pending |
 | 4       | RDS Database with Backups                   | ⏳ Pending |
 | 5       | CI/CD Pipeline                              | ⏳ Pending |
