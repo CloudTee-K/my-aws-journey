@@ -1,0 +1,15 @@
+{
+  "name": "contact-form-lambda",
+  "version": "1.0.0",
+  "description": "Serverless contact form handler with SES",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["lambda", "ses", "contact-form", "serverless"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-ses": "^3.0.0"
+  }
+}
