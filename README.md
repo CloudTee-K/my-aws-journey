@@ -44,7 +44,7 @@ Throughout this journey, I aim to:
 | 🟠 Advanced     | Projects 12–16 | ⏳ Not Started |
 | 🔴 Expert       | Projects 17–20 | ⏳ Not Started |
 
-**Overall Progress:** **2/ 20 Projects Completed**
+**Overall Progress:** **3/20 Projects Completed**
 
 ---
 
@@ -134,8 +134,8 @@ Every project in this repository will include:
 | Project | Title                                       | Status    |
 | ------- | ------------------------------------------- | --------- |
 | 1       | Static Website Hosting with S3 & CloudFront |✅ Completed|
-| 2       | Linux Server Setup on EC2                   |✅ Completed |
-| 3       | Serverless Contact Form                     | ⏳ Pending |
+| 2       | Linux Server Setup on EC2                   |✅ Completed|
+| 3       | Serverless Contact Form                     |✅ Completed|
 | 4       | RDS Database with Backups                   | ⏳ Pending |
 | 5       | CI/CD Pipeline                              | ⏳ Pending |
 | 6       | Infrastructure as Code with Terraform       | ⏳ Pending |
@@ -193,30 +193,102 @@ Successfully provisioned and configured a secure Ubuntu Linux server on Amazon E
 - Performed end-to-end Linux and Nginx troubleshooting to validate the deployment.
 - Produced comprehensive project documentation, including architecture, commands, troubleshooting, lessons learned, and screenshots.
 
+## ✅ Project 03 — Serverless Contact Form with AWS Lambda & Amazon SES
+
+Built and deployed a fully serverless contact form using Amazon API Gateway, AWS Lambda, and Amazon SES. The application accepts user input from a static HTML frontend, invokes a Lambda function through API Gateway, validates the request, and sends email notifications using Amazon SES.
+
+### Highlights
+
+- Built a serverless backend using AWS Lambda.
+- Created a REST API with Amazon API Gateway.
+- Integrated Lambda with Amazon SES for email delivery.
+- Configured IAM roles following the Principle of Least Privilege.
+- Connected a static HTML frontend to a serverless backend.
+- Packaged and deployed a Node.js Lambda function with external dependencies.
+- Configured CORS for secure browser-based API requests.
+- Successfully tested end-to-end email delivery.
+- Documented the architecture, deployment process, troubleshooting steps, and lessons learned.
+
+
+## 🏗️ Architecture Progress
+
+### Project 1
+
+```
+User
+   │
+   ▼
+Amazon CloudFront
+   │
+   ▼
+Amazon S3
+```
+
+### Project 2
+
+```
+User
+   │
+   ▼
+Amazon EC2
+   │
+   ▼
+Nginx
+   │
+   ▼
+Flask Application
+```
+
+### Project 3
+
+```
+User
+   │
+   ▼
+API Gateway
+   │
+   ▼
+AWS Lambda
+   │
+   ▼
+Amazon SES
+   │
+   ▼
+Verified Email
+```
 
 📂 Project Folder:
 
 Projects/
-└── Project-01-Static-Website-S3-CloudFront/
-└── Project-02-Linux-Server-Setup-on-Amazon-EC2/
-
+├── Project-01-Static-Website-S3-CloudFront/
+├── Project-02-Linux-Server-Setup-EC2/
+└── Project-03-Serverless-Contact-Form/
 ---
 
 #  Skills Progress
-
 ## AWS Services
 
 - ✅ Amazon S3
 - ✅ Amazon CloudFront
 - ✅ AWS IAM
 - ✅ Amazon EC2
-- ⏳ AWS Lambda
+- ✅ AWS Lambda
+- ✅ Amazon API Gateway
+- ✅ Amazon SES
+- ✅ Amazon CloudWatch
 - ⏳ Amazon RDS
+- ⏳ Amazon VPC
 - ⏳ Route 53
 - ⏳ Amazon ECS
 - ⏳ Amazon EKS
-- ✅ CloudWatch
+- ⏳ Amazon ECR
 - ⏳ DynamoDB
+- ⏳ Secrets Manager
+- ⏳ Auto Scaling
+- ⏳ Application Load Balancer (ALB)
+- ⏳ AWS Config
+- ⏳ GuardDuty
+- ⏳ Security Hub
 
 ---
 
@@ -225,6 +297,7 @@ Projects/
 - ✅ Git
 - ✅ GitHub
 - ✅ AWS CLI
+- ✅ Node.js
 - ⏳ GitHub Actions
 - ⏳ Docker
 - ⏳ Terraform
@@ -243,6 +316,21 @@ This learning journey supports hands-on preparation for:
 * AWS Certified DevOps Engineer – Professional
 
 ---
+
+## 🚀 Current Milestone
+
+After completing the first three projects, I have gained hands-on experience with:
+
+- Static website hosting using Amazon S3 and CloudFront.
+- Linux server provisioning and configuration on Amazon EC2.
+- Secure server administration using IAM Roles and AWS Systems Manager.
+- Reverse proxy configuration with Nginx.
+- Monitoring infrastructure with Amazon CloudWatch.
+- Building serverless applications using AWS Lambda.
+- Creating REST APIs with Amazon API Gateway.
+- Sending transactional emails using Amazon SES.
+- Developing and deploying Node.js applications.
+- Technical documentation, troubleshooting, Git, and GitHub workflows.
 
 ##  Acknowledgements
 
