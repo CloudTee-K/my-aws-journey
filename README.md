@@ -136,7 +136,7 @@ Every project in this repository will include:
 | 1       | Static Website Hosting with S3 & CloudFront |✅ Completed|
 | 2       | Linux Server Setup on EC2                   |✅ Completed|
 | 3       | Serverless Contact Form                     |✅ Completed|
-| 4       | RDS Database with Backups                   | ⏳ Pending |
+| 4       | RDS Database with Backups                   | ✅ Completed |
 | 5       | CI/CD Pipeline                              | ⏳ Pending |
 | 6       | Infrastructure as Code with Terraform       | ⏳ Pending |
 | 7       | Containerized Application on ECS            | ⏳ Pending |
@@ -209,6 +209,13 @@ Built and deployed a fully serverless contact form using Amazon API Gateway, AWS
 - Successfully tested end-to-end email delivery.
 - Documented the architecture, deployment process, troubleshooting steps, and lessons learned.
 
+### ✅ Project 04 — Amazon RDS PostgreSQL Database with Automated Backups
+
+Deployed a secure PostgreSQL database using Amazon RDS within a custom VPC. The architecture uses private RDS subnets, an EC2 Bastion Host for controlled administrative access, security-group-based network restrictions, encrypted database connectivity, automated backups, and Amazon CloudWatch monitoring.
+
+**AWS Services:** Amazon RDS, Amazon EC2, Amazon VPC, Amazon CloudWatch
+
+**Key Skills:** PostgreSQL, VPC networking, private database architecture, Bastion Host administration, security groups, automated backups, SSL/TLS, CloudWatch monitoring
 
 ## 🏗️ Architecture Progress
 
@@ -263,6 +270,7 @@ Projects/
 ├── Project-01-Static-Website-S3-CloudFront/
 ├── Project-02-Linux-Server-Setup-EC2/
 └── Project-03-Serverless-Contact-Form/
+└── Project-04-RDS-Database/
 ---
 
 #  Skills Progress
@@ -276,8 +284,8 @@ Projects/
 - ✅ Amazon API Gateway
 - ✅ Amazon SES
 - ✅ Amazon CloudWatch
-- ⏳ Amazon RDS
-- ⏳ Amazon VPC
+- ✅Amazon RDS
+- ✅ Amazon VPC
 - ⏳ Route 53
 - ⏳ Amazon ECS
 - ⏳ Amazon EKS
