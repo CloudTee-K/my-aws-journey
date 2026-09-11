@@ -39,12 +39,12 @@ Throughout this journey, I aim to:
 
 | Level           | Projects       | Status        |
 | --------------- | -------------- | ------------- |
-| 🟢 Beginner     | Projects 1–5   | ⏳ IN PROGRESS |
+| 🟢 Beginner     | Projects 1–5   |✅ COMPLETED |
 | 🟡 Intermediate | Projects 6–11  | ⏳ Not Started |
 | 🟠 Advanced     | Projects 12–16 | ⏳ Not Started |
 | 🔴 Expert       | Projects 17–20 | ⏳ Not Started |
 
-**Overall Progress:** **3/20 Projects Completed**
+**Overall Progress:** **5/20 Projects Completed**
 
 ---
 
@@ -137,7 +137,7 @@ Every project in this repository will include:
 | 2       | Linux Server Setup on EC2                   |✅ Completed|
 | 3       | Serverless Contact Form                     |✅ Completed|
 | 4       | RDS Database with Backups                   | ✅ Completed |
-| 5       | CI/CD Pipeline                              | ⏳ Pending |
+| 5       | CI/CD Pipeline                              | ✅ Completed |
 | 6       | Infrastructure as Code with Terraform       | ⏳ Pending |
 | 7       | Containerized Application on ECS            | ⏳ Pending |
 | 8       | Centralized Logging                         | ⏳ Pending |
@@ -215,7 +215,30 @@ Deployed a secure PostgreSQL database using Amazon RDS within a custom VPC. The 
 
 **AWS Services:** Amazon RDS, Amazon EC2, Amazon VPC, Amazon CloudWatch
 
-**Key Skills:** PostgreSQL, VPC networking, private database architecture, Bastion Host administration, security groups, automated backups, SSL/TLS, CloudWatch monitoring
+**Key Skills:** PostgreSQL, VPC networking, private database architecture, Bastion Host administration, security groups, automated backups, SSL/TLS, CloudWatch monitoring.
+
+## ✅ Project 05 — CI/CD Pipeline with GitHub Actions
+
+Built an automated CI/CD pipeline for a Node.js Express application using GitHub Actions. The pipeline automatically performs code quality checks and automated tests before securely authenticating to AWS through OpenID Connect (OIDC) and deploying application artifacts to Amazon S3.
+
+**AWS Services:** AWS IAM, AWS STS, Amazon S3
+
+**DevOps Tools:** GitHub Actions, Git, GitHub, Node.js, npm, ESLint, Jest
+
+**Key Skills:** CI/CD automation, automated testing, linting, GitHub Actions workflows, OIDC authentication, IAM trust policies, least-privilege access, S3 artifact deployment, pipeline troubleshooting
+
+### Highlights
+
+- Built an automated GitHub Actions CI/CD workflow.
+- Implemented automated code quality checks using ESLint.
+- Implemented automated application testing using Jest.
+- Configured GitHub-to-AWS authentication using OIDC.
+- Eliminated the need to store long-term AWS access keys in GitHub.
+- Created a least-privilege IAM deployment policy.
+- Restricted the IAM trust relationship to the authorized GitHub repository and branch.
+- Troubleshot an OIDC role-assumption failure involving immutable GitHub subject claims.
+- Successfully deployed application artifacts to Amazon S3.
+- Verified the deployed artifacts directly in the S3 bucket.
 
 ## 🏗️ Architecture Progress
 
@@ -264,6 +287,31 @@ Amazon SES
 Verified Email
 ```
 
+### Project 5
+
+```text
+Developer
+    |
+    | git push
+    v
+GitHub Repository
+    |
+    v
+GitHub Actions
+    |
+    +-- ESLint
+    |
+    +-- Jest Tests
+    |
+    v
+GitHub OIDC
+    |
+    v
+AWS IAM Role
+    |
+    v
+Amazon S3
+
 📂 Project Folder:
 
 Projects/
@@ -271,6 +319,7 @@ Projects/
 ├── Project-02-Linux-Server-Setup-EC2/
 └── Project-03-Serverless-Contact-Form/
 └── Project-04-RDS-Database/
+└── Project-05-CICD-Github-Actions/
 ---
 
 #  Skills Progress
@@ -306,7 +355,7 @@ Projects/
 - ✅ GitHub
 - ✅ AWS CLI
 - ✅ Node.js
-- ⏳ GitHub Actions
+- ✅ GitHub Actions
 - ⏳ Docker
 - ⏳ Terraform
 - ⏳ Kubernetes
@@ -327,18 +376,32 @@ This learning journey supports hands-on preparation for:
 
 ## 🚀 Current Milestone
 
-After completing the first three projects, I have gained hands-on experience with:
+### Beginner Level Completed — Projects 1–5
+
+I have now completed the first five projects in my AWS Cloud Engineering journey, representing 25% of the complete 20-project roadmap.
+
+Through these projects, I have gained hands-on experience with:
 
 - Static website hosting using Amazon S3 and CloudFront.
-- Linux server provisioning and configuration on Amazon EC2.
-- Secure server administration using IAM Roles and AWS Systems Manager.
-- Reverse proxy configuration with Nginx.
-- Monitoring infrastructure with Amazon CloudWatch.
-- Building serverless applications using AWS Lambda.
-- Creating REST APIs with Amazon API Gateway.
-- Sending transactional emails using Amazon SES.
-- Developing and deploying Node.js applications.
-- Technical documentation, troubleshooting, Git, and GitHub workflows.
+- Linux server provisioning and administration on Amazon EC2.
+- IAM roles and secure AWS Systems Manager access.
+- Nginx reverse proxy configuration.
+- Infrastructure monitoring using Amazon CloudWatch.
+- Serverless applications using AWS Lambda.
+- REST APIs using Amazon API Gateway.
+- Email delivery using Amazon SES.
+- PostgreSQL databases using Amazon RDS.
+- Custom VPC networking and private database architecture.
+- Automated database backups and monitoring.
+- CI/CD pipelines using GitHub Actions.
+- Automated testing using Jest.
+- Code quality validation using ESLint.
+- Secure GitHub-to-AWS authentication using OIDC.
+- Least-privilege IAM policies and trust relationships.
+- Automated deployment of application artifacts to Amazon S3.
+- Real-world troubleshooting across AWS, Linux, Node.js, Git, and CI/CD workflows.
+
+With Projects 1–5 completed, the next stage of the roadmap is the Intermediate Level, beginning with Project 06 — Infrastructure as Code with Terraform.
 
 ##  Acknowledgements
 
