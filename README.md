@@ -1,96 +1,156 @@
-#  My AWS Cloud Engineering Journey
+# My AWS Cloud Engineering Journey
 
-Welcome to **My AWS Cloud Engineering Journey**! 
+A hands-on Cloud Engineering and DevOps portfolio documenting my growth through the CloudHER Cohort 1 Mentorship Program by Women Innovating in Cloud Africa (WIICA).
 
-This repository documents my hands-on learning journey through AWS Cloud Engineering and DevOps using a project-based approach. Rather than learning AWS services in isolation, I'm building real-world projects that reflect how cloud technologies are used in production environments.
+## About This Journey
 
-Each project in this repository is carefully documented to showcase not only the final solution but also the learning process, challenges encountered, troubleshooting steps, and key takeaways.
+This repository documents my practical journey into AWS Cloud Engineering, DevOps, and Cloud Security through a structured series of 20 hands-on projects.
 
----
+Rather than learning AWS services only in theory, I am building real-world cloud solutions that help me understand how infrastructure is designed, deployed, secured, automated, monitored, and troubleshot.
+
+Each project documents not only the final solution, but also:
+
+- The problem being solved
+- Architecture and AWS services used
+- Implementation steps
+- Commands and configurations
+- Testing and validation
+- Troubleshooting
+- Security considerations
+- Lessons learned
+- Cleanup procedures
+
+## CloudHER Cohort 1
+
+This portfolio forms part of my learning journey during the CloudHER Cohort 1 Mentorship Program by Women Innovating in Cloud Africa (WIICA).
+
+**Track:** Cloud Computing  
+**Focus:** Cloud Engineering, Cloud Architecture, Infrastructure Security, and DevOps  
+**Mentor:** Olamide Kosile
+
+During the mentorship, I moved from working mainly with individual AWS services to building complete cloud architectures and introducing automation, security, monitoring, CI/CD, and Infrastructure as Code into my projects.
 
 ## About Me
 
-Hi, I'm **Toluwalope**, a Computer Science student with a growing passion for **Cloud Computing**, **Cloud Engineering**, and **Cybersecurity**.
+Hi, I'm **Toluwalope**, a Computer Science student building practical skills in **Cloud Computing, Cloud Engineering, DevOps, and Cybersecurity**.
 
-My goal is to build a strong foundation in AWS cloud technologies through practical, hands-on experience while developing the skills required to design, deploy, secure, and manage modern cloud solutions.
+My long-term focus is Cloud Security Engineering. I am developing the cloud engineering foundation required to design infrastructure that is not only functional, but also secure, resilient, observable, and maintainable.
 
-This repository serves as both my learning journal and professional portfolio as I progress from beginner-level AWS projects to advanced cloud engineering concepts.
+This repository serves as both my technical learning journal and professional portfolio as I progress from foundational AWS projects toward increasingly advanced cloud engineering and security concepts.
 
 ---
 
-##  Learning Objectives
+## Learning Objectives
 
-Throughout this journey, I aim to:
+Throughout this journey, my objectives are to:
 
-* Build practical experience with core AWS services.
-* Develop strong Cloud Engineering and DevOps skills.
-* Learn Infrastructure as Code using Terraform.
-* Build and deploy containerized applications.
-* Understand CI/CD pipelines and automation.
-* Gain experience with Kubernetes and GitOps.
-* Learn cloud security best practices.
-* Improve troubleshooting and problem-solving skills.
-* Build a professional GitHub portfolio.
-* Document my learning consistently.
+- Build practical experience designing and deploying solutions on AWS.
+- Develop strong Cloud Engineering and DevOps fundamentals.
+- Apply cloud security principles such as least privilege, private networking, encryption, and secure authentication.
+- Automate infrastructure deployment using Infrastructure as Code.
+- Build and understand CI/CD pipelines.
+- Develop experience with containers and container orchestration.
+- Improve monitoring, logging, and observability skills.
+- Strengthen troubleshooting and problem-solving abilities.
+- Document technical work professionally.
+- Build a portfolio that demonstrates practical cloud engineering skills.
 
 ---
 
 ## Learning Roadmap
 
-| Level           | Projects       | Status        |
-| --------------- | -------------- | ------------- |
-| 🟢 Beginner     | Projects 1–5   |✅ COMPLETED |
-| 🟡 Intermediate | Projects 6–11  | ⏳ Not Started |
-| 🟠 Advanced     | Projects 12–16 | ⏳ Not Started |
-| 🔴 Expert       | Projects 17–20 | ⏳ Not Started |
+| Level | Projects | Status |
+| --- | --- | --- |
+| Beginner | Projects 1–5 | Completed |
+| Intermediate | Projects 6–11 | In Progress |
+| Advanced | Projects 12–16 | Not Started |
+| Expert | Projects 17–20 | Not Started |
 
-**Overall Progress:** **5/20 Projects Completed**
+**Overall Progress:** 5/20 Projects Completed  
+**Current Project:** Project 06 — Infrastructure as Code with Terraform
 
----
+### Beginner Level Milestone Completed
 
-##  Technologies & Services
+I have completed the first five projects in the AWS Cloud Engineering roadmap.
 
-During this journey, I'll gain hands-on experience with:
+These projects introduced me to:
 
-### AWS Services
+- Static website hosting and content delivery
+- Linux server administration on EC2
+- Serverless architecture
+- Managed relational databases
+- Networking and security groups
+- IAM roles and least-privilege permissions
+- Monitoring and automated backups
+- CI/CD pipelines
+- GitHub Actions
+- Secure AWS authentication with OIDC
+- Deployment automation
 
-* Amazon EC2
-* Amazon S3
-* Amazon CloudFront
-* AWS IAM
-* Amazon RDS
-* AWS Lambda
-* API Gateway
-* Amazon VPC
-* Route 53
-* Amazon ECS
-* Amazon EKS
-* Amazon ECR
-* CloudWatch
-* Secrets Manager
-* DynamoDB
-* Auto Scaling
-* Application Load Balancer (ALB)
-* AWS Config
-* GuardDuty
-* Security Hub
-
-### DevOps & Cloud Engineering
-
-* Git & GitHub
-* GitHub Actions
-* Docker
-* Terraform
-* Kubernetes
-* Helm
-* ArgoCD
-* Prometheus
-* Grafana
-* Loki
+I am now progressing into the intermediate stage, beginning with Infrastructure as Code using Terraform.
 
 ---
 
-##  Repository Structure
+## Technologies & Services
+
+### AWS Services Used So Far
+
+- Amazon EC2
+- Amazon S3
+- Amazon CloudFront
+- AWS IAM
+- Amazon RDS
+- AWS Lambda
+- Amazon API Gateway
+- Amazon SES
+- Amazon VPC
+- Amazon CloudWatch
+
+### DevOps & Development Tools Used So Far
+
+- Git
+- GitHub
+- GitHub Actions
+- AWS CLI
+- Linux
+- Node.js
+- Jest
+- ESLint
+- Flask
+- Nginx
+- PostgreSQL
+
+### Currently Learning
+
+- Terraform
+- Infrastructure as Code
+- Terraform modules
+- Remote state management
+
+### Planned Technologies
+
+As I progress through the remaining projects, the roadmap will introduce technologies including:
+
+- Docker
+- Amazon ECS
+- Amazon ECR
+- Kubernetes
+- Amazon EKS
+- Secrets Manager
+- Auto Scaling
+- Application Load Balancer
+- AWS Config
+- GuardDuty
+- Security Hub
+- Helm
+- ArgoCD
+- Prometheus
+- Grafana
+- Loki
+
+---
+
+## Repository Structure
 
 ```text
 my-aws-journey/
@@ -110,184 +170,240 @@ my-aws-journey/
 
 ---
 
-##  Project Documentation Standard
+## Project Documentation Standard
 
-Every project in this repository will include:
+Every project in this repository is documented with relevant information such as:
 
-* Project overview
-* Architecture diagram
-* AWS services used
-* Deployment steps
-* Commands used
-* Screenshots
-* Challenges encountered
-* Troubleshooting notes
-* Lessons learned
-* Security considerations
-* Cost considerations
-* Cleanup instructions
+- Project overview
+- Architecture
+- AWS services used
+- Deployment steps
+- Commands used
+- Screenshots
+- Challenges encountered
+- Troubleshooting notes
+- Lessons learned
+- Security considerations
+- Cost considerations
+- Cleanup instructions
 
 ---
 
 ## Progress Tracker
 
-| Project | Title                                       | Status    |
-| ------- | ------------------------------------------- | --------- |
-| 1       | Static Website Hosting with S3 & CloudFront |✅ Completed|
-| 2       | Linux Server Setup on EC2                   |✅ Completed|
-| 3       | Serverless Contact Form                     |✅ Completed|
-| 4       | RDS Database with Backups                   | ✅ Completed |
-| 5       | CI/CD Pipeline                              | ✅ Completed |
-| 6       | Infrastructure as Code with Terraform       | ⏳ Pending |
-| 7       | Containerized Application on ECS            | ⏳ Pending |
-| 8       | Centralized Logging                         | ⏳ Pending |
-| 9       | Secrets Management                          | ⏳ Pending |
-| 10      | Auto Scaling Web Tier                       | ⏳ Pending |
-| 11      | Event-Driven Data Pipeline                  | ⏳ Pending |
-| 12      | Kubernetes on EKS                           | ⏳ Pending |
-| 13      | GitOps with ArgoCD                          | ⏳ Pending |
-| 14      | Full Observability Stack                    | ⏳ Pending |
-| 15      | Blue/Green & Canary Deployments             | ⏳ Pending |
-| 16      | AWS Security Posture                        | ⏳ Pending |
-| 17      | Multi-Region Active-Active Architecture     | ⏳ Pending |
-| 18      | Platform Engineering                        | ⏳ Pending |
-| 19      | Chaos Engineering                           | ⏳ Pending |
-| 20      | FinOps Cost Optimization                    | ⏳ Pending |
+| Project | Title | Status |
+| --- | --- | --- |
+| 1 | Static Website Hosting with S3 & CloudFront | Completed |
+| 2 | Linux Server Setup on EC2 | Completed |
+| 3 | Serverless Contact Form | Completed |
+| 4 | RDS Database with Automated Backups | Completed |
+| 5 | CI/CD Pipeline with GitHub Actions | Completed |
+| 6 | Infrastructure as Code with Terraform | In Progress |
+| 7 | Containerized Application on ECS | Not Started |
+| 8 | Centralized Logging | Not Started |
+| 9 | Secrets Management | Not Started |
+| 10 | Auto Scaling Web Tier | Not Started |
+| 11 | Event-Driven Data Pipeline | Not Started |
+| 12 | Kubernetes on EKS | Not Started |
+| 13 | GitOps with ArgoCD | Not Started |
+| 14 | Full Observability Stack | Not Started |
+| 15 | Blue/Green & Canary Deployments | Not Started |
+| 16 | AWS Security Posture | Not Started |
+| 17 | Multi-Region Active-Active Architecture | Not Started |
+| 18 | Platform Engineering | Not Started |
+| 19 | Chaos Engineering | Not Started |
+| 20 | FinOps Cost Optimization | Not Started |
 
 ---
 
+## Featured Projects
+
+### Project 01 — Static Website Hosting with Amazon S3 & CloudFront
+
+Built and deployed a static website using Amazon S3 for storage and Amazon CloudFront for content delivery.
+
+**Key Technologies:** Amazon S3, Amazon CloudFront, IAM
+
+**What I Learned:**
+
+- Static website hosting on AWS
+- Content delivery using a CDN
+- HTTPS delivery through CloudFront
+- S3 bucket policies and access control
+- CloudFront distributions and cache invalidation
+
+**Status:** Completed  
+**Project Documentation:** [View Project 01](./Projects/Project-01-Static-Website-S3-Cloudfront/)
+
 ---
 
-# 🌟 Featured Projects
+### Project 02 — Linux Server Setup on Amazon EC2
 
-## ✅ Project 01 — Static Website Hosting with Amazon S3 & CloudFront
+Provisioned and configured a Linux web server on Amazon EC2, using Nginx as a reverse proxy for a Flask application.
 
-Successfully deployed a globally accessible static website using Amazon S3 and Amazon CloudFront.
+**Key Technologies:** Amazon EC2, Linux, Nginx, Flask, IAM, Systems Manager, CloudWatch
 
-### Highlights
+**What I Learned:**
 
-- Hosted a static website on Amazon S3
-- Configured Static Website Hosting
-- Applied a public-read bucket policy
-- Created a CloudFront distribution
-- Enabled HTTPS through CloudFront
-- Documented the complete deployment process
-- Recorded troubleshooting steps and lessons learned
-- Captured deployment screenshots
-- Practiced AWS cost optimization through resource cleanup
+- EC2 provisioning and Linux administration
+- Security group configuration
+- IAM roles for EC2
+- AWS Systems Manager Session Manager
+- Nginx reverse proxy configuration
+- Application and infrastructure troubleshooting
 
-## ✅ Project 02 — Linux Server Setup on Amazon EC2
+**Status:** Completed  
+**Project Documentation:** [View Project 02](./Projects/Project-02-Linux-Server-Setup-EC2/)
 
-Successfully provisioned and configured a secure Ubuntu Linux server on Amazon EC2 using automated provisioning with EC2 User Data. Implemented secure access with IAM Roles, Security Groups, AWS Systems Manager Session Manager, and Amazon CloudWatch monitoring while deploying a Flask web application behind an Nginx reverse proxy.
+---
 
-### Highlights
+### Project 03 — Serverless Contact Form with Lambda and SES
 
-- Launched and configured an Ubuntu Server 22.04 LTS Amazon EC2 instance.
-- Configured Security Groups to allow SSH, HTTP, and HTTPS traffic.
-- Created and attached an IAM Role with Systems Manager and CloudWatch permissions.
-- Provisioned the server automatically using EC2 User Data.
-- Deployed a Python Flask web application.
-- Configured Nginx as a reverse proxy for the Flask application.
-- Managed the EC2 instance securely using AWS Systems Manager Session Manager.
-- Monitored instance performance using Amazon CloudWatch.
-- Performed end-to-end Linux and Nginx troubleshooting to validate the deployment.
-- Produced comprehensive project documentation, including architecture, commands, troubleshooting, lessons learned, and screenshots.
+Built a serverless contact form that receives HTTP requests through API Gateway, processes them with AWS Lambda, and sends emails using Amazon SES.
 
-## ✅ Project 03 — Serverless Contact Form with AWS Lambda & Amazon SES
+**Key Technologies:** AWS Lambda, Amazon API Gateway, Amazon SES, IAM, Node.js
 
-Built and deployed a fully serverless contact form using Amazon API Gateway, AWS Lambda, and Amazon SES. The application accepts user input from a static HTML frontend, invokes a Lambda function through API Gateway, validates the request, and sends email notifications using Amazon SES.
+**What I Learned:**
 
-### Highlights
+- Serverless architecture
+- REST API integration
+- Lambda execution roles
+- Input validation
+- CORS configuration
+- Event-driven application design
 
-- Built a serverless backend using AWS Lambda.
-- Created a REST API with Amazon API Gateway.
-- Integrated Lambda with Amazon SES for email delivery.
-- Configured IAM roles following the Principle of Least Privilege.
-- Connected a static HTML frontend to a serverless backend.
-- Packaged and deployed a Node.js Lambda function with external dependencies.
-- Configured CORS for secure browser-based API requests.
-- Successfully tested end-to-end email delivery.
-- Documented the architecture, deployment process, troubleshooting steps, and lessons learned.
+**Status:** Completed  
+**Project Documentation:** [View Project 03](./Projects/Project-03-Serverless-Contact-Form/)
 
-### ✅ Project 04 — Amazon RDS PostgreSQL Database with Automated Backups
+---
 
-Deployed a secure PostgreSQL database using Amazon RDS within a custom VPC. The architecture uses private RDS subnets, an EC2 Bastion Host for controlled administrative access, security-group-based network restrictions, encrypted database connectivity, automated backups, and Amazon CloudWatch monitoring.
+### Project 04 — RDS Database with Automated Backups
 
-**AWS Services:** Amazon RDS, Amazon EC2, Amazon VPC, Amazon CloudWatch
+Designed a secure database architecture using Amazon RDS for PostgreSQL inside a custom VPC with private database subnets and controlled access through a bastion host.
 
-**Key Skills:** PostgreSQL, VPC networking, private database architecture, Bastion Host administration, security groups, automated backups, SSL/TLS, CloudWatch monitoring.
+**Key Technologies:** Amazon RDS, PostgreSQL, Amazon VPC, Amazon EC2, CloudWatch
 
-## ✅ Project 05 — CI/CD Pipeline with GitHub Actions
+**What I Learned:**
 
-Built an automated CI/CD pipeline for a Node.js Express application using GitHub Actions. The pipeline automatically performs code quality checks and automated tests before securely authenticating to AWS through OpenID Connect (OIDC) and deploying application artifacts to Amazon S3.
+- Public and private subnet architecture
+- Database subnet groups
+- Security-group-to-security-group access
+- PostgreSQL administration
+- Storage encryption
+- Automated database backups
+- CloudWatch alarms and monitoring
 
-**AWS Services:** AWS IAM, AWS STS, Amazon S3
+**Status:** Completed  
+**Project Documentation:** [View Project 04](./Projects/Project-04-RDS-Database/)
 
-**DevOps Tools:** GitHub Actions, Git, GitHub, Node.js, npm, ESLint, Jest
+---
 
-**Key Skills:** CI/CD automation, automated testing, linting, GitHub Actions workflows, OIDC authentication, IAM trust policies, least-privilege access, S3 artifact deployment, pipeline troubleshooting
+### Project 05 — CI/CD Pipeline with GitHub Actions
 
-### Highlights
+Built a CI/CD pipeline for a Node.js application using GitHub Actions. The pipeline automatically installs dependencies, performs linting, runs automated tests, authenticates to AWS using OIDC, and deploys application artifacts to Amazon S3.
 
-- Built an automated GitHub Actions CI/CD workflow.
-- Implemented automated code quality checks using ESLint.
-- Implemented automated application testing using Jest.
-- Configured GitHub-to-AWS authentication using OIDC.
-- Eliminated the need to store long-term AWS access keys in GitHub.
-- Created a least-privilege IAM deployment policy.
-- Restricted the IAM trust relationship to the authorized GitHub repository and branch.
-- Troubleshot an OIDC role-assumption failure involving immutable GitHub subject claims.
-- Successfully deployed application artifacts to Amazon S3.
-- Verified the deployed artifacts directly in the S3 bucket.
+**Key Technologies:** GitHub Actions, Node.js, Jest, ESLint, AWS IAM, OIDC, Amazon S3
 
-## 🏗️ Architecture Progress
+**Pipeline:**
 
-### Project 1
+`Git Push → Lint → Test → Authenticate to AWS → Deploy`
 
-```
+**What I Learned:**
+
+- Continuous Integration and Continuous Deployment
+- Automated testing and linting
+- GitHub Actions workflows
+- Secure AWS authentication using OIDC
+- IAM trust policies
+- Least-privilege deployment permissions
+- CI/CD troubleshooting
+
+**Status:** Completed  
+**Project Documentation:** [View Project 05](./Projects/Project-05-CICD-Github-Actions/)
+
+---
+
+### Project 06 — Infrastructure as Code with Terraform
+
+Currently learning how to provision AWS infrastructure using Terraform instead of manually creating every resource through the AWS Management Console.
+
+The project introduces reusable Terraform modules, state management, infrastructure planning, and repeatable AWS deployments.
+
+**Key Technologies:** Terraform, AWS CLI, Amazon VPC, Amazon EC2, Amazon RDS, Amazon S3
+
+**Current Learning Focus:**
+
+- Infrastructure as Code
+- HashiCorp Configuration Language (HCL)
+- Terraform modules
+- Terraform state management
+- Infrastructure validation and planning
+- Reproducible cloud infrastructure
+
+**Status:** In Progress
+
+---
+
+## Architecture Progress
+
+### Project 01
+
+```text
 User
-   │
-   ▼
+  |
+  v
 Amazon CloudFront
-   │
-   ▼
+  |
+  v
 Amazon S3
 ```
 
-### Project 2
+### Project 02
 
-```
+```text
 User
-   │
-   ▼
+  |
+  v
 Amazon EC2
-   │
-   ▼
+  |
+  v
 Nginx
-   │
-   ▼
+  |
+  v
 Flask Application
 ```
 
-### Project 3
+### Project 03
 
-```
+```text
 User
-   │
-   ▼
-API Gateway
-   │
-   ▼
+  |
+  v
+Amazon API Gateway
+  |
+  v
 AWS Lambda
-   │
-   ▼
+  |
+  v
 Amazon SES
-   │
-   ▼
+  |
+  v
 Verified Email
 ```
 
-### Project 5
+### Project 04
+
+```text
+User / Administrator
+        |
+        v
+   Bastion Host
+        |
+        v
+ Private RDS PostgreSQL
+```
+
+### Project 05
 
 ```text
 Developer
@@ -311,110 +427,172 @@ AWS IAM Role
     |
     v
 Amazon S3
-
-📂 Project Folder:
-
-Projects/
-├── Project-01-Static-Website-S3-CloudFront/
-├── Project-02-Linux-Server-Setup-EC2/
-└── Project-03-Serverless-Contact-Form/
-└── Project-04-RDS-Database/
-└── Project-05-CICD-Github-Actions/
----
-
-#  Skills Progress
-## AWS Services
-
-- ✅ Amazon S3
-- ✅ Amazon CloudFront
-- ✅ AWS IAM
-- ✅ Amazon EC2
-- ✅ AWS Lambda
-- ✅ Amazon API Gateway
-- ✅ Amazon SES
-- ✅ Amazon CloudWatch
-- ✅Amazon RDS
-- ✅ Amazon VPC
-- ⏳ Route 53
-- ⏳ Amazon ECS
-- ⏳ Amazon EKS
-- ⏳ Amazon ECR
-- ⏳ DynamoDB
-- ⏳ Secrets Manager
-- ⏳ Auto Scaling
-- ⏳ Application Load Balancer (ALB)
-- ⏳ AWS Config
-- ⏳ GuardDuty
-- ⏳ Security Hub
+```
 
 ---
 
-## DevOps Tools
+## Technical Growth & Skills Demonstrated
 
-- ✅ Git
-- ✅ GitHub
-- ✅ AWS CLI
-- ✅ Node.js
-- ✅ GitHub Actions
-- ⏳ Docker
-- ⏳ Terraform
-- ⏳ Kubernetes
-- ⏳ Helm
-- ⏳ ArgoCD
+Through these projects, I have developed practical experience across several areas of cloud engineering.
 
-## 🏆 Certification Alignment
+### Cloud Architecture
 
-This learning journey supports hands-on preparation for:
+- Designing AWS solutions using multiple interconnected services
+- Working with public and private subnet architectures
+- Understanding server-based, serverless, and managed-service architectures
+- Selecting AWS services based on application requirements
 
-* AWS Certified Cloud Practitioner
-* AWS Certified Solutions Architect – Associate
-* AWS Certified Developer – Associate
-* AWS Certified SysOps Administrator – Associate
-* AWS Certified DevOps Engineer – Professional
+### AWS Infrastructure
+
+- Amazon EC2 instance deployment and administration
+- Amazon S3 storage and static website hosting
+- Amazon CloudFront content delivery
+- Amazon RDS PostgreSQL deployment
+- AWS Lambda serverless computing
+- Amazon API Gateway
+- Amazon SES email integration
+- Amazon VPC networking
+- Amazon CloudWatch monitoring
+
+### Cloud Security
+
+Security has become an increasingly important part of how I approach cloud infrastructure.
+
+I have gained practical experience with:
+
+- IAM users, roles, and policies
+- Least-privilege permissions
+- Security groups
+- Private database subnets
+- Encryption at rest
+- HTTPS and encryption in transit
+- Secure AWS authentication using OIDC
+- Restricting direct access to cloud resources
+- Separating application and database access
+- Avoiding long-lived AWS credentials in CI/CD pipelines
+
+### DevOps & Automation
+
+- Git and GitHub version control
+- GitHub Actions
+- CI/CD pipeline design
+- Automated testing with Jest
+- Code linting with ESLint
+- AWS deployment automation
+- Introduction to Infrastructure as Code with Terraform
+
+### Linux & Application Deployment
+
+- Linux command-line administration
+- Nginx configuration
+- Flask application deployment
+- Node.js application development
+- PostgreSQL command-line administration
+- AWS CLI usage
+
+### Troubleshooting
+
+An important part of this journey has been learning how to troubleshoot systems instead of simply following deployment instructions.
+
+Some of the issues I have worked through include:
+
+- Web server and reverse proxy configuration problems
+- Security group and network connectivity issues
+- Database connectivity
+- IAM permission problems
+- API and CORS configuration
+- CI/CD workflow failures
+- GitHub Actions OIDC authentication and IAM trust-policy issues
+- Local development environment and CLI configuration
+
+Troubleshooting these problems has strengthened my understanding of how the individual components of a cloud architecture interact.
 
 ---
 
-## 🚀 Current Milestone
+## How My Approach Has Changed
 
-### Beginner Level Completed — Projects 1–5
+At the beginning of this journey, much of my focus was on learning how individual AWS services worked and deploying resources manually.
 
-I have now completed the first five projects in my AWS Cloud Engineering journey, representing 25% of the complete 20-project roadmap.
+As I progressed through the projects, my focus expanded toward understanding the relationships between services and the architecture as a whole.
 
-Through these projects, I have gained hands-on experience with:
+My current approach increasingly considers:
 
-- Static website hosting using Amazon S3 and CloudFront.
-- Linux server provisioning and administration on Amazon EC2.
-- IAM roles and secure AWS Systems Manager access.
-- Nginx reverse proxy configuration.
-- Infrastructure monitoring using Amazon CloudWatch.
-- Serverless applications using AWS Lambda.
-- REST APIs using Amazon API Gateway.
-- Email delivery using Amazon SES.
-- PostgreSQL databases using Amazon RDS.
-- Custom VPC networking and private database architecture.
-- Automated database backups and monitoring.
-- CI/CD pipelines using GitHub Actions.
-- Automated testing using Jest.
-- Code quality validation using ESLint.
-- Secure GitHub-to-AWS authentication using OIDC.
-- Least-privilege IAM policies and trust relationships.
-- Automated deployment of application artifacts to Amazon S3.
-- Real-world troubleshooting across AWS, Linux, Node.js, Git, and CI/CD workflows.
+**Architecture → Security → Automation → Testing → Monitoring → Documentation → Cleanup**
 
-With Projects 1–5 completed, the next stage of the roadmap is the Intermediate Level, beginning with Project 06 — Infrastructure as Code with Terraform.
+This shift has helped me understand that Cloud Engineering is not simply about creating resources in AWS. It involves designing infrastructure that can be secured, tested, maintained, monitored, reproduced, and improved.
 
-##  Acknowledgements
-
-This journey is part of my participation in the **Women Innovating in Cloud Africa (WICA)** Mentorship Program, where I was selected as a mentee for the inaugural cohort.
-
-Special thanks to my mentor, **Olamide Kosile**, for providing guidance, learning resources, and a structured project roadmap that supports practical skill development in Cloud Engineering and DevOps.
+My next stage focuses on Infrastructure as Code with Terraform and progressively more advanced cloud architecture, DevOps, containerization, observability, and security projects.
 
 ---
 
-##  Disclaimer
+## CloudHER Mentorship Reflection
 
-This repository is intended for educational and portfolio purposes. AWS resources are deployed only for learning and are cleaned up after each project to encourage responsible cloud usage and cost management.
+Participating in the CloudHER Cohort 1 Mentorship Program has helped me become more intentional about my journey into cloud technology.
+
+My mentorship focus has been Cloud Computing, with particular interest in Cloud Engineering, Cloud Architecture, Infrastructure Security, and DevOps.
+
+Working through hands-on AWS projects has helped me move beyond simply learning cloud concepts. I now spend more time thinking about why an architecture is designed a certain way, how its components communicate, what security controls should be applied, how failures can be diagnosed, and how infrastructure can eventually be automated.
+
+One of the most valuable parts of this journey has been learning through troubleshooting. Not every deployment worked correctly on the first attempt, and resolving those problems has strengthened both my technical understanding and confidence when working with cloud infrastructure.
+
+I am grateful to my mentor, **Olamide Kosile**, for his guidance throughout my CloudHER journey and to **Women Innovating in Cloud Africa (WIICA)** for creating an environment where women can develop practical cloud skills and grow within the technology industry.
 
 ---
 
-Cloud engineering isn't mastered by watching tutorials—it's mastered by building, breaking, fixing, documenting, and repeating. Every project in this repository represents one more step toward becoming a professional Cloud Engineer.
+## What's Next?
+
+Completing the beginner stage is only the beginning of this roadmap.
+
+My next phase focuses on:
+
+- Infrastructure as Code with Terraform
+- Containerization with Docker
+- Amazon ECS and ECR
+- Centralized logging and monitoring
+- Secrets management
+- Auto Scaling and load balancing
+- Event-driven architectures
+- Kubernetes and Amazon EKS
+- GitOps
+- Observability
+- Advanced AWS security
+- Highly available and multi-region architectures
+
+As I continue building, I will keep documenting not only successful deployments but also the problems, design decisions, security considerations, and lessons that come with each project.
+
+My long-term goal is to grow from Cloud Engineering into **Cloud Security Engineering**, with a strong understanding of how secure cloud infrastructure is designed, deployed, automated, monitored, and maintained.
+
+---
+
+## Current Progress
+
+**AWS Cloud Engineering Roadmap:** 5/20 projects completed  
+**Current Stage:** Intermediate  
+**Currently Building:** Project 06 — Infrastructure as Code with Terraform  
+**CloudHER:** Cohort 1 — Cloud Computing Track
+
+This repository will continue to evolve as I complete the remaining projects in the roadmap.
+
+---
+
+## Certification Alignment
+
+This learning journey provides practical experience relevant to AWS certification study, including:
+
+- AWS Certified Cloud Practitioner
+- AWS Certified Solutions Architect – Associate
+- AWS Certified Developer – Associate
+- AWS Certified SysOps Administrator – Associate
+- AWS Certified DevOps Engineer – Professional
+
+Certification objectives are used as learning references; completion of projects in this repository does not represent certification.
+
+---
+
+## Disclaimer
+
+This repository is intended for educational and portfolio purposes. AWS resources are deployed for learning and are cleaned up after projects where appropriate to encourage responsible cloud usage and cost management.
+
+---
+
+Cloud engineering is learned through practice: building, testing, troubleshooting, documenting, and improving. Every project in this repository represents another step in my development as a Cloud Engineer.
