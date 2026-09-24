@@ -42,3 +42,20 @@ desktop.ini
 # ===============================
 .env
 .env.*
+
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+
+# Terraform variable files may contain secrets
+*.tfvars
+!*.tfvars.example
+
+# Environment and credential files
+.env
+.env.*
+*.pem
