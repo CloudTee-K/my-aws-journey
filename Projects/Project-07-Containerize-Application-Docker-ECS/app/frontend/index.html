@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 07 - Docker & ECS</title>
+</head>
+<body>
+    <h1>Project 07 - Containerized Application</h1>
+    <p>Frontend service powered by Nginx.</p>
+
+    <button id="apiButton">Test Backend API</button>
+    <p id="result">Click the button to contact the backend.</p>
+
+    <script>
+        document.getElementById("apiButton").addEventListener("click", async () => {
+            const result = document.getElementById("result");
+
+            try {
+                const response = await fetch("/api/data");
+                const data = await response.json();
+                result.textContent = data.message;
+            } catch (error) {
+                result.textContent = "Unable to contact backend.";
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+@'
+# Node.js dependencies
+node_modules/
+
+# Environment files
+.env
+.env.*
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Temporary AWS configuration files
+*-task-definition.json
+ecs-task-trust-policy.json
+scaling-config.json
+'@ | Set-Content .gitignore

@@ -1,0 +1,20 @@
+# Node.js
+node_modules/
+
+# Environment files
+.env
+.env.*
+
+# Logs
+*.log
+npm-debug.log*
+
+# Temporary AWS configuration files
+*-task-definition.json
+ecs-task-trust-policy.json
+scaling-config.json
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
