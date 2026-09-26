@@ -199,7 +199,7 @@ Every project in this repository is documented with relevant information such as
 | 4 | RDS Database with Automated Backups | Completed |
 | 5 | CI/CD Pipeline with GitHub Actions | Completed |
 | 6 | Infrastructure as Code with Terraform | In Progress |
-| 7 | Containerized Application on ECS | Not Started |
+| 7 | Containerized Application on ECS | Completed |
 | 8 | Centralized Logging | Not Started |
 | 9 | Secrets Management | Not Started |
 | 10 | Auto Scaling Web Tier | Not Started |
@@ -521,7 +521,7 @@ My current approach increasingly considers:
 
 This shift has helped me understand that Cloud Engineering is not simply about creating resources in AWS. It involves designing infrastructure that can be secured, tested, maintained, monitored, reproduced, and improved.
 
-My next stage focuses on Infrastructure as Code with Terraform and progressively more advanced cloud architecture, DevOps, containerization, observability, and security projects.
+My next stage focuses on progressively more advanced cloud architecture, DevOps automation, observability, infrastructure security, and production-ready AWS projects.
 
 ---
 
